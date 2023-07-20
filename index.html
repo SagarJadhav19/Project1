@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="banner">
+        <img src ="sawta.jpg" alt="logo" class="logo">
+    <div class="heading">
+        <h1> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SANT SAWATA MAHARAJ HOSTEL SAMBHAJIPETH,<br> CHHATRAPATI SAMBHAJINAGAR </h1>
+   <div class="img"><br><br>
+    <img src="phule1.jpg" height="300px" alt="">
+<H3 style="padding-bottom: 30px;"> <br>
+     विध्येविना मती गेली || <br>
+       मती विना निती गेली ||<br>
+       निती विना गती गेली ||<br>
+       गती विना वित्त गेले  ||<br>
+       वित्ता विना शूद्र खचले ||<br>
+       इतके अनर्थ एका अविध्येणे केले || 
+</H3>
+   </div> 
+   
+</div>
+
+    </section>
+<div id="sideNav">
+        <nav>
+        <ul>
+            <li><a href="#banner">HOME</a></li>
+            <li><a href="#Facilities1">FACILITIES</a></li>
+            <li><a href="#Rules">RULES AND REGULATIONS</a></li>
+            <li><a href="#Application">APPLICATION</a></li>
+            <li><a href="#About">ABOUT US</a></li>
+            <li><a href="#Contact">CONTACT US</a></li>
+            <li><a href="GALLERY.HTML" target="_blank">GALLERY</a></li>
+
+        </ul>
+
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src="menu.png "id="menu">
+    
+</div>
+
+<section id="Facilities1">
+      <div class="title-text">
+            <p>FACILITIES</p>
+            <h1>We Provide Better Facilities</h1>
+            
+        </div>
+        <div class="Facilities-box">
+            <div class="facilities">
+               <h1> <li> Student will get water will be available for hot bath but students have to plan about it</li>
+                    <li>Students will get bed-mattress according to admission number.</li>
+                    <li>There is a library in the hostel which is totally free.</li>
+                    <li>Voluntary students with independent study in the hostel Rs.150 per month has to be paid.</li>
+                </h1>
+            </div>
+</section>
+            
+    <section id="Rules">
+      <div class="title-text">
+           <br><br><br> <p>DISCIPLINE</p>
+            <h1>Rules And Regulations</h1>
+        </div>
+        <div class="Rules-box">
+            <div class="rules">
+                <ul>
+               <h1><li type="square">  It will be necessary to follow the rules prescribe by the hostel committee.</li> <br>
+             <li  type="square">   The committee reservels all rights to take immediate action against the student in case of misconduct. </li> <br>
+            <li  type="square">It will be the student's responsibility to maintain peace,cleanliness and pleasure atmosphere in the hostel.</li><br>
+            <li>Students have to bring their own bucket,glass,bed cover with lunch box and cleaning materials(Soap, Oil, Mirror, comb, toothpaste etc.)
+            </li><br>
+            <li  type="square">Hostel entry fees Rs.2150 has to be paid for first month.</li><br>
+            <li>Student hostel canteen of Rs,1000 per month has to be paid by 3rd day of every month.If failure to do so will result penalty of Rs.50 per day.If not paid by the 7th day, all your facilities will closed.</li><br>
+            <li>In case of damage to the hostel by the student,compensation will be recovered from the student.</li><br>
+            <li>No guest or friend can be accomodated in the hostel with the student.</li><br>
+            <li>Entering amd leaving will be recorded in the special register to maintain record.</li><br>
+            </h1>
+        </ul>
+            </div>
+        </section>
+        
+        
+        <section id="Application">
+            <div class="title-text">
+                <br><br><br> <p>APPLICATION</p>
+                 <h1>Application form</h1>
+             </div>
+             <div class="main">
+            <div class="container">
+            <header>Application</header>
+            <form action="database.php" method="post" enctype="multipart/form-data">
+                <div class="form">
+                    <div class="details">
+                        <span class="title">Personal Details </span>
+
+
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label for="Full Name">Full Name</label><br>
+                                    <input type="text" placeholder="Enter Your Name" name="FullName" id="" required>
+                                </div>  
+                                <div class="input-field">
+                                    <label for="Email">Email</label> <br>
+                                    <input type="email" placeholder="Enter Valid Email" name="Email" id="" required>
+                                </div> 
+                                <div class="input-field">
+                                    <label for="Address">Address&nbsp;&nbsp;&nbsp;</label><br>
+                                    <input type="text" placeholder="Enter your Address" name="Address" id="" required>
+                                </div> 
+                                <div class="input-field">
+                                    <label for="Date Of Birth">Date OF Birth</label><br>
+                                    <input type="date" placeholder="Enter your DOB" name="DOB" id="" required>
+                                </div> 
+                                
+                                <div class="input-field">
+                                    <label for="Mobile Number">Mobile No</label><br>
+                                    <input type="number" placeholder="Enter Mobile Number" name="Mobile" id="" required>
+                                </div> 
+                                
+                                <div class="input-field">
+                                    <label for="Parent Number">Parent Number</label><br>
+                                    <input type="Number" placeholder="Enter Your Parent Number" name="ParentNO" id="" required>
+                                </div> 
+                               
+                               <div class="input-field">
+                                <label for="Caste">Select Caste</label>
+                                   <select name="caste" id="">
+                        
+                                    <option value="Mali" selected>     Mali</option>
+                                   </select>
+                                </div> 
+                                <div class="input-field">
+                                    <label for="Adhaar No">Aadhaar Number</label><br>
+                                    <input type="number" placeholder="Enter Your Aadhaar Number" name="Aadhaar" id="" required>
+                                </div> 
+                              
+                            </div>
+                            
+                        </div>
+                        <div class="details">
+                            <span class="title">Educational Details </span>
+    
+    
+                                <div class="fields">
+                                    <div class="input-field">
+                                        <label for="Aadhaar"> Aadhaar </label><br>
+                                        <input type="file" Placeholder="Upload Aadhaar" name="AadhaarCard" id="" required>
+                                    </div>  
+                                    <div class="input-field">
+                                        <label for="Caste">Caste Certificate</label> <br>
+                                        <input type="file" name="Caste" id="" required>
+                                    </div> 
+                                    <div class="input-field">
+                                        <label for="10th ">10th Marksheet&nbsp;&nbsp;&nbsp;</label><br>
+                                        <input type="file" placeholder="Enter your Address" name="1othMarksheet" id="">
+                        
+                                    </div> 
+                                    <div class="input-field">
+                                        <label for=" 12th">12th Marksheet&nbsp;&nbsp;&nbsp;</label><br>
+                                        <input type="file" placeholder="Enter your Address" name="12thMarksheet" id="" >
+                        
+                                    </div> 
+                                    <div class="input-field">
+                                        <label for="Degree"> Degree Certificate</label><br>
+                                        <input type="file" placeholder="Enter your DOB" name="Degree" id="" >
+                                    </div> 
+                                    
+                                   
+                                    <div class="input-field">
+                                        <label for="7/12">Income or 7/12 Print</label><br>
+                                        <input type="file" placeholder="Enter Your Parent Number" name="7/12" id="">
+                                    </div> 
+                                    <div class="input-field">
+                                        <label for="Submit"></label><br>
+                                        <input type="submit" placeholder="Enter Your Parent Number" name="submit" id="" value="Upload File">
+                                     </div> 
+                                 </div>    
+                              </div>    
+                         </div>
+                   </div>
+                 </form>
+                
+            </section>   
+            <section id="About">
+                <div class="title-text">
+                      <p>ABOUT US</p>
+                      <h1>Lets Know The Information</h1>
+                </div>
+            <div class="About-box">
+                <div class="about">
+                 <h1 style="text-align: center;">   Hostel Purpose </h1> <BR></BR>
+                 <p>   The Hostel was mainly developed in 'August 2005' by remembering the purpose of it. The Hostel is for the students who belongs to the caste "Mali" form anywhere. It is mainly for the students who wants to study in future at the district level,who cant afford the expenses for accommodate at district level. To give them a chance for complete education with a giving a facilities in very cheap expense.</p>
+                        <br> <p>   It is beneficial for the farmers student living in the rural areas. The farmer who suffering from the increasing inflation of fertilizer,water,storm and labor grows the agricultural products with great efforts,but merchant decides the price of his goods without letting him determine the price of the goods. While conducting our life in such a system we manage to fulfill our domestic and social needs  and how do we afford the higher education to our children.
+                            Therefore we have come togethere as a team and constructed Sri Sant Sawata Maharaj Temple which for only the boys in the center of the city at Sambhajipeth. There is a statue of Mahatma Phule and Savitribai Phule nearby from hostel. And it coordinates both the spiritual and power place of the community and has has the largest number of educational institutes,colleges and nominal classes in this area.
+                    </p><br>
+                    <p>
+                            For the educational development of the society it was unanimously agreed that the farmers,agriculturals labourers,poor students from the rural areas can stay and study in the city. From the 1st August 2005, the hostel society came into being with the finanacial help of brothers. Hostel arrangement fee,accommodation fee like 50% should be paid by the boys and maintenanace of the hostel including cleanliness should be done by the students as team work
+                   </p><br>
+                    <p>
+                            The admission process in this hostel according to the merit of students. Only students studying after 10th can take the admission in the hostel. The documents should with you while the interview taken by Hostel committe. The students must upload all the documents as mention above in the application section. Student should not atach any agreement with the application, the hostel management can take action against the boy who give wrong information in the appplication. This arrangement is an important step taken for the educational development of the MALI community and we expect the cooperation of all the fellows foe this work.
+
+
+                        </p>
+                </div>
+            </div>
+
+    </section> 
+    <section id="Contact">
+        <div class="title-text">
+              <p>CONTACT US</p>
+            </div> 
+
+            <h3 style="text-align: center;color:#801ee1;text-decoration: underline; text-decoration-color: rgb(238, 122, 5);"><img src="location.png" alt="">Sant Sawata Maharaj Mandir Phule Chowk Samnhajipeth Sambhajinagar</h3>
+            <br><br>
+        <div class="icons-box"> 
+       <div class="icons">
+        <a href="https://www.instagram.com/" target="blank"><img src="instagram.png" alt="" style="align-items: center;"></a>
+        &nbsp;&nbsp;&nbsp; <a href="https://mail.google.com/mail/u/0/#inbox" target="blank"> <img src="gmail.png" alt="" style="align-items: center;"></a>        
+        &nbsp;&nbsp;&nbsp; <a href="https://www.youtube.com/@sagarjadhav9794/featured" target="blank"> <img src="youtube.png " alt="" style="align-items: center;"></a>
+        &nbsp;&nbsp;&nbsp; <a href="https://www.google.com/maps/place/Sant+Savta+Maharaj+Mandir/@19.88409152,75.3249911,17z/data=!3m1!4b1!4m6!3m5!1s0x3bdb9812f126563b:0xc28c70581bf7e1e9!8m2!3d19.8849152!4d75.327566!16s%2Fg%2F11c1cbw33t?authuser=0" target="blank"> <img src="location.png" alt="" style="align-items: center;"></a>
+       
+    </div>
+    </div> 
+</section> 
+
+
+
+  <script>
+        var menuBtn= document.getElementById("menuBtn")
+        var sideNav= document.getElementById("sideNav")
+        var manu= document.getElementById("menu")
+    sideNav.style.right="-250px";
+
+    menuBtn.onclick=function(){
+        if(sideNav.style.right=="-250px")
+        {
+            sideNav.style.right="0";
+            menu.src=="images1.png";
+        }
+        else
+        {
+            sideNav.style.right="-250px";
+            menu.src=="menu.png";
+
+        }
+    }
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+
+    </script>
+
+</body>
+</html> 
